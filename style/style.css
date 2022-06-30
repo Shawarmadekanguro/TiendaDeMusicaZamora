@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #111;
+    height: 15px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    justify-content: stretch;
+}
+.navbar a{
+    
+    border: 1px solid #222;
+    border-radius: 20%;
+    padding: 10px;
+    margin: 10px 30px;  
+}
+.logo{
+    border: none;
+    justify-self: flex-start;
+}
+.enlaces{
+    font-family: 'New Rocker', cursive;
+    display: flex;
+    justify-content: space-around;
+  
+}
+.navbar h4{
+    font-size: xx-large; 
+}
+main {
+    background-color: #e4e4e4;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tarjeta{
+    display: flex;
+    background-color: rgb(123, 123, 123);
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    margin: 50px 0;
+    justify-content: center;
+    align-content: center;
+    border: 3px solid #222;
+    border-radius: 5%;
+}
+.tarjeta img{
+    padding-bottom: 20px;
+}
+.tarjetaH3 {
+    font-family: 'New Rocker', cursive;
+    font-size: x-large;
+    align-self: center;
+    justify-self: center;
+
+}
+.descripcion{
+    
+    display: flex;
+    margin: auto;
+    align-self:center;
+    justify-content: center;
+}
+.footer{
+    background-color: #163029;}
+body {
+    display: grid;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.copyrigth{
+    justify-self:stretch;
+}
+.footer a img{
+    width: 60%;
+    padding:20px;
+}
+.containerAccesorios{
+    display: grid;
+    grid-template-columns: repeat(4,400px);
+    grid-template-rows: repeat(4,300px)
+}
+.tarjetaAccesorios{
+    width:300px ;  
+    border: solid salmon;  
+}
