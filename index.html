@@ -8,22 +8,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:ital,wght@0,700;1,400&family=New+Rocker&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Tienda de instrumentos musicales</title>
 </head>
-<body>
+<body class="body">
     <header> </header>
-        <nav class="navbar"> 
+        <nav class="navbar  navbar-dark bg-dark"> 
             <a href="index.html" class="logo"><img src="assets/logo.png" alt="logo"></a>
+            
             <div class="enlaces">
-                <a href="index.html" ><h4> Productos</h4> </a> 
+                <div  class="">
+                    <a id="desplegable" class="desplegable btn-secondary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Productos
+                    </a>
+                  
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="pages/guitarras.html">Guitarras</a>
+                      <a class="dropdown-item" href="pages/otrosInstrumentos.html">Otros Instrumentos</a>
+                      <a class="dropdown-item" href="pages/accesorios.html">Accesorios</a>
+                    </div>
+                  </div>
                 <a href="pages/contacto.html"><h4>Contacto</h4></a>
                 <a href="pages/contacto.html"><h4>¿Quiénes somos?</h4></a>
                
             </div>
-          
-
         </nav>  
-   
     <main >
            <section class="container"> 
                 <div class="tarjeta inicio">
@@ -39,11 +51,14 @@
                 <h3 class="tarjetaH3">Accesorios</h3></a>
                  </div>
              </section>
-             <div class="textoindex"><p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi autem minima quasi culpa perspiciatis nihil explicabo assumenda tenetur animi, sapiente sit ipsum ex harum id ducimus cum repellat facilis sunt praesentium delectus suscipit. Quae, atque ipsum! Non consequatur quam ducimus recusandae dolorem nam dicta vel repudiandae saepe suscipit modi quos consequuntur illo aliquid eum ipsa eius at, eveniet perspiciatis. Atque consequuntur, dicta tempora quaerat animi deserunt. Voluptatibus, maxime? Illo temporibus laudantium, voluptate sint reprehenderit repudiandae sed voluptatem maiores ipsum nemo exercitationem perferendis? Rerum sapiente excepturi quasi voluptatum pariatur repellendus in.</p></div>
+             
+             <div class="textoindex ">
+                <p class="text-lg-start ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi autem minima quasi culpa perspiciatis nihil explicabo assumenda tenetur animi, sapiente sit ipsum ex harum id ducimus cum repellat facilis sunt praesentium delectus suscipit. Quae, atque ipsum! Non consequatur quam ducimus recusandae dolorem nam dicta vel repudiandae saepe suscipit modi quos consequuntur illo aliquid eum ipsa eius at, eveniet perspiciatis. Atque consequuntur, dicta tempora quaerat animi deserunt. Voluptatibus, maxime? Illo temporibus laudantium, voluptate sint reprehenderit repudiandae sed voluptatem maiores ipsum nemo exercitationem perferendis? Rerum sapiente excepturi quasi voluptatum pariatur repellendus in.</p>
+            </div>
              
     </main>
     
-    <footer class="footer">
+    <footer class="footer ">
         <p class="copyrigth"><h6>&#169 Copyright</h6></p>
         <a href="pages/contacto.html"><img src="assets/mail.png" alt=""></a>
         <a href="pages/contacto.html"><img src="assets/wsp.png" alt=""></a>
