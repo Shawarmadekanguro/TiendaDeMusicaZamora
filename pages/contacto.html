@@ -31,42 +31,44 @@
             <a href="contacto.html"><h4>Contacto</h4></a>
             <a href="contacto.html"><h4>¿Quiénes somos?</h4></a>
         </div>
-    </nav>
-    <h1>Contactanos</h1>     
-         <section>
-            <form method="get">
-                <label for="nombre">Nombre y apellido</label>
-                <input type="text" value="" name="nombre" required >
-                <br>
-                <label for="email">Ingrese su mail</label required>
-                <input type="email" name="email">
-                <br>
-                <label for="mensaje">Ingrese su mensaje</label required>
-                <input type="text" name="mensaje" id="">
-                <br>
-                <label for="telefono">Whatsapp</label>
-                <input type="number" name="telefono">
-                <br>
-                <input type="submit">
-            </form>
-          <div>
-              <h3 id="quieneSomos">Quienes Somos?</h3>
-              <p>......es una empresa conformada por músicos dedicada a la importación, representación y distribución de instrumentos musicales, sistemas de grabación digital y accesorios, en todos los casos de importantes marcas y amplia trayectoria mundial.
-
+    </nav> 
+    <main>
+      <section class="contactos">
+        <div class="tarjetaContactos">
+          <h1>Contactanos</h1>     
+          <form method="get" class="formContactos">
+            <label for="nombre"><h5>Nombre y apellido</h5></label>
+            <input type="text" value="" name="nombre" required >
+            <br>
+            <label for="email"><h5>Ingrese su mail</h5></label required>
+            <input type="email" name="email">
+            <br>
+            <label for="mensaje"><h5>Ingrese su mensaje</h5></label required>
+            <input type="textarea" name="mensaje" id="">
+            <br>
+            <label for="telefono"><h5>Whatsapp</h5></label>
+            <input type="number" name="telefono">
+            <br>
+            <input type="submit">
+          </form>
+        </div>
+          <div class="tarjetaQuienes">
+            <h3>¿Quienes Somos?</h3>
+            <p>......es una empresa conformada por músicos dedicada a la importación, representación y distribución de instrumentos musicales, sistemas de grabación digital y accesorios, en todos los casos de importantes marcas y amplia trayectoria mundial.
                 Nos moviliza desde hace más de 400 años la pasión por la música y lo llevamos adelante con mucho placer porque amamos lo que hacemos.
-                
+          
                 Nuestro objetivo más importante es intentar mejorar continuamente ofreciéndoles los últimos adelantos tecnológicos sobre la industria de la música y de esta manera buscar la mayor satisfacción para quienes confian en nuestra empresa. Muchas gracias por acompañarnos y elegir nuestros productos. Estamos a su disposición, esperando recibir sus preguntas y sugerencias para seguir creciendo juntos día a día.
                 
                 ¡¡ Un fuerte abrazo !!</p>
           </div>
-
-        </section>
-    <footer>
-            <p>&#169</p>
-            <a href="contacto.html"><img src="/Codigo/assets/mail.png" alt=""></a>
-            <a href="contacto.html"><img src="/Codigo/assets/wsp.png" alt=""></a>
-            <a href="https://youtube.com"><img src="/Codigo/assets/youtube.png" alt=""></a>
-    </footer>
+      </section>
+    </main>
+  <footer class="footer">
+          <p class="copyrigth"><h6>&#169 Copyright</h6></p>
+          <a href="contacto.html"><img src="../assets/mail.png" alt=""></a>
+          <a href="contacto.html"><img src="../assets/wsp.png" alt=""></a>
+          <a href="https://youtube.com"><img src="../assets/youtube.png" alt=""></a>
+  </footer>
     
 </body>
 </html>
