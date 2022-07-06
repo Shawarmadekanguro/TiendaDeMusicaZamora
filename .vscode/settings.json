@@ -1,0 +1,14 @@
+
+{
+   // generate map, default is true
+   "liveSassCompile.settings.generateMap": true,
+   "liveSassCompile.settings.formats": [      
+      // css programmer
+      {
+         "format": "expanded",
+         "extensionName": ".css",
+         "savePath": "/style"
+      },
+   ]
+   
+ }
